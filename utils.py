@@ -10,8 +10,8 @@ def load_image(path):
 
 def plot_sample(lr, sr):
     plt.figure(figsize=(20, 10))
-    plt.savefig("lr",lr)
-    plt.savefig("hr",sr)
+    plt.savefig("fig.png")
+    #plt.savefig(sr)
     images = [lr, sr]
     titles = ['LR', f'SR (x{sr.shape[0] // lr.shape[0]})']
 
