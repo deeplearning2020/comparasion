@@ -17,8 +17,8 @@ def plot_sample(lr, sr):
 
     for i, (img, title) in enumerate(zip(images, titles)):
         #plt.subplot(1, 2, i+1)
-        #plt.imshow(img)
-        plt.savefig(str(i) + ".png")
+        plt.imshow(img)
+        #plt.savefig(str(i) + ".png")
         plt.title(title)
         plt.xticks([])
         plt.yticks([])
